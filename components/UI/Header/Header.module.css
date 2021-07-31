@@ -1,0 +1,35 @@
+.header {
+  padding: 25px 50px 0px 50px;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: var(--primary-color);
+}
+.switch {
+  background-color: var(--secondary-color);
+  border-radius: 9px;
+  border-width: 0px;
+  padding: 9px 11px;
+  font-size: 0.45em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.966);
+}
+.hindi {
+  font-weight: normal;
+}
+.right {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.right a {
+  color: var(--secondary-color);
+  font-size: 0.5em;
+}

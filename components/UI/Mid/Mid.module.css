@@ -1,0 +1,40 @@
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.left {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 3em;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left button, .left a {
+  border: 0px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--secondary-color);
+  color: rgba(255, 255, 255, 0.966);
+}
+.knowMore {
+  font-weight: normal !important;
+  background: var(--primary-color) !important;
+}
+.scndCont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hindi .left {
+  font-size: 2em;
+}

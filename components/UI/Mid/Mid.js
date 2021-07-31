@@ -14,7 +14,7 @@ function Mid(props) {
         </div>
         <div className={styles.scndCont}>
 
-          <a href="https://www.cowin.gov.in/" target={"_blank"}>{
+          <a href="https://www.cowin.gov.in/" target={"_blank"} rel="noreferrer">{
             props.lang === "Hin" ? "बुक करें"
               : "Book A Slot"
           }</a>

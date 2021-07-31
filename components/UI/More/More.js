@@ -20,8 +20,8 @@ function More(props) {
         }
       </div>
       <h1>{props.lang === "Hin" ? 
-        (<>हम में से कई लोगों ने इस वायरस के कारण अपने प्रियजनों को खो दिया है। <br/>इसलिए हम आपसे जल्द से जल्द टीकाकरण कराने का अनुरोध करते हैं। ये बिलकुल मुफ्त में कराया जा सकता है। <br/>"बदलाव की ओर एक कदम बढ़ाए, आज ही अपना टीकाकरण कराये"</>)
-        : ("Many of us have lost their loved ones due to this virus. So we request you to get vaccinated as soon as possible. It doesn't cost anything! And remember \"Change starts with you\"")
+        (<>हम में से कई लोगों ने इस वायरस के कारण अपने प्रियजनों को खो दिया है। <br />इसलिए हम आपसे जल्द से जल्द टीकाकरण कराने का अनुरोध करते हैं। ये बिलकुल मुफ्त में कराया जा सकता है। <br />&quot;बदलाव की ओर एक कदम बढ़ाए, आज ही अपना टीकाकरण कराये&quot;</>)
+        : ("Many of us have lost their loved ones due to this virus. So we request you to get vaccinated as soon as possible. It doesn't cost anything! And remember &quot;Change starts with you&quot;")
       }
       </h1>
       <a href="https://www.cowin.gov.in/">{
